@@ -1,1 +1,4 @@
-Flask
+Flask==1.1.4
+Werkzeug
+flask_restplus
+markupsafe==1.1.1

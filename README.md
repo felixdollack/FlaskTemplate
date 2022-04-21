@@ -1,6 +1,6 @@
 # Flask Template
 
-Basic template to build a Flask application in Docker.
+Basic template to build a Flask application with API (Swagger) in Docker.
 
 
 ## Build
@@ -23,8 +23,17 @@ docker run --rm --publish 8000:5000 --name flask_app flask_template
 
 
 ## Test it!
-Open `http://localhost:8000` in your browser.
+Open `http://localhost:8000/api` in your browser.
 
+You can test the API from there or use the curl command directly:
+```
+curl GET "http://localhost:8000/api/ping"
+```
+or
+```
+curl -X POST "http://localhost:8000/api/test" -H "accept: application/json" -H "Content-Type: application/json" -d '{"message": "My Message!"}'
+```
 
 ## See also:
+* [Flask Template](https://github.com/felixdollack/FlaskTemplate)
 * [Flask Template with Blueprint](https://github.com/felixdollack/FlaskTemplate/tree/blueprint)
