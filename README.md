@@ -24,3 +24,7 @@ docker run --rm --publish 8000:5000 --name flask_app flask_template
 
 ## Test it!
 Open `http://localhost:8000` in your browser.
+
+## See also:
+* [Flask Template](https://github.com/felixdollack/FlaskTemplate)
+* [Flask Template with API](https://github.com/felixdollack/FlaskTemplate/tree/api)
