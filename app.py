@@ -7,6 +7,6 @@ from api import myApi
 app = Flask(__name__)
 myApi.init_app(app)
 
-#@app.route('/')
-#def root():
-#    return "<p>Hello, World!</p>"
+@app.route('/hello')
+def hello():
+    return "<p>Hello, World!</p>"
