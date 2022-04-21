@@ -1,6 +1,6 @@
-# Flask Template with blueprints
+# Flask Template with Blueprint
 
-Basic template to build a Flask application with blueprints in Docker.
+Basic template to build a Flask application with Blueprint in Docker.
 
 
 ## Build
