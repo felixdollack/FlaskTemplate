@@ -28,3 +28,4 @@ Open `http://localhost:8000` in your browser.
 
 ## See also:
 * [Flask Template with Blueprint](https://github.com/felixdollack/FlaskTemplate/tree/blueprint)
+* [Flask Template with API](https://github.com/felixdollack/FlaskTemplate/tree/api)
